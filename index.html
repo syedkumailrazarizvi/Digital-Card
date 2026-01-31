@@ -1,24 +1,51 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Wedding Invitation — SYED KUMAIL & SYEDA NOOR</title>
-  <meta name="description" content="Wedding invitation for SYED KUMAIL RAZA RIZVI & SYEDA NOOR UL SABA NAQVI — 16 February 2026 — The Meadows Banquet, Karachi">
-  <meta name="theme-color" content="#0f3a2d">
 
-  <!-- Optional webfonts (can be removed if you prefer system fonts) -->
+  <title>Wedding Invitation — SYED KUMAIL &amp; SYEDA NOOR</title>
+  <meta name="description" content="Wedding invitation for SYED KUMAIL RAZA RIZVI &amp; SYEDA NOOR UL SABA NAQVI — 16 February 2026 — The Meadows Banquet, Karachi" />
+  <meta name="theme-color" content="#0f3a2d" />
+
+  <!-- ✅ Canonical -->
+  <link rel="canonical" href="https://syedkumailrazarizvi.github.io/Digital-Card/" />
+
+  <!-- =========================================================
+       ✅ Open Graph (WhatsApp uses this)
+       IMPORTANT: Make sure this image URL opens in browser!
+       https://syedkumailrazarizvi.github.io/Digital-Card/assets/whatsapp-preview.jpg
+       ========================================================= -->
+  <meta property="og:title" content="Wedding Invitation — SYED KUMAIL &amp; SYEDA NOOR" />
+  <meta property="og:description" content="16 February 2026 — The Meadows Banquet, Karachi. You are warmly invited." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://syedkumailrazarizvi.github.io/Digital-Card/" />
+  <meta property="og:image" content="https://syedkumailrazarizvi.github.io/Digital-Card/assets/whatsapp-preview.jpg" />
+  <meta property="og:image:secure_url" content="https://syedkumailrazarizvi.github.io/Digital-Card/assets/whatsapp-preview.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Wedding Invitation Preview" />
+
+  <!-- ✅ Twitter Card (fallback for other apps) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Wedding Invitation — SYED KUMAIL &amp; SYEDA NOOR" />
+  <meta name="twitter:description" content="16 February 2026 — The Meadows Banquet, Karachi." />
+  <meta name="twitter:image" content="https://syedkumailrazarizvi.github.io/Digital-Card/assets/whatsapp-preview.jpg" />
+
+  <!-- ✅ Fonts (proper tags) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet"/>
 
   <style>
     :root{
-      --emerald:#0f3a2d;      /* deep emerald */
+      --emerald:#0f3a2d;
       --emerald-2:#0c2f25;
-      --ink:#0a0e10;          /* near black */
-      --gold:#d9bd77;         /* gold accent */
-      --ivory:#f7f3e8;        /* off-white */
-      --muted:#e6ddc8;        /* muted off-white */
+      --ink:#0a0e10;
+      --gold:#d9bd77;
+      --ivory:#f7f3e8;
+      --muted:#e6ddc8;
       --soft:#ffffff10;
       --border:#d9bd77cc;
       --border-soft:#d9bd7788;
@@ -28,7 +55,6 @@
     *{box-sizing:border-box}
     html,body{margin:0;padding:0}
 
-    /* —— BACKGROUND: dignified emerald + very subtle geometric tiling —— */
     body{
       color:var(--ivory);
       font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
@@ -50,7 +76,6 @@
       padding:22px;
     }
 
-    /* —— CONTAINER & CARD —— */
     .container{max-width:940px; width:100%;}
     .card{
       position:relative;
@@ -60,8 +85,6 @@
       overflow:hidden;
       backdrop-filter: blur(3px);
     }
-
-    /* Classic gold frame: outer and inner (subtle) */
     .card::before{
       content:""; position:absolute; inset:12px; border-radius:12px;
       border:1px solid var(--border); pointer-events:none;
@@ -70,7 +93,6 @@
       content:""; position:absolute; inset:20px; border-radius:10px;
       border:1px solid var(--border-soft); pointer-events:none;
       background:
-        /* corner circles (restrained) */
         radial-gradient(circle at 16px 16px, rgba(217,189,119,.46), transparent 12px),
         radial-gradient(circle at calc(100% - 16px) 16px, rgba(217,189,119,.46), transparent 12px),
         radial-gradient(circle at 16px calc(100% - 16px), rgba(217,189,119,.46), transparent 12px),
@@ -78,7 +100,6 @@
       opacity:.22;
     }
 
-    /* —— HEADER —— */
     header{text-align:center; padding:36px 22px 14px}
     h1.bismillah{
       font-family:"Playfair Display", serif;
@@ -90,7 +111,6 @@
     .blessings{margin:10px auto 6px; color:#efe6cf; font-size:clamp(12px,2.2vw,14px)}
     .inviter{margin:8px auto 0; color:#f6eedc; font-size:clamp(12px,2.2vw,14px)}
 
-    /* —— NAMES —— */
     .names{text-align:center; padding:18px 14px 10px}
     .line{height:1px; width:120px; margin:16px auto; background:linear-gradient(90deg,transparent,var(--gold),transparent)}
     .groom,.bride{
@@ -108,11 +128,9 @@
       color:#f2ead8; font-size:clamp(10px,1.6vw,12px); line-height:1.18;
     }
 
-    /* —— VERSE —— */
     .verse{max-width:760px; margin:20px auto 10px; padding:0 16px; text-align:center; color:#fffaf0; line-height:1.6; font-style:italic}
     .verse .ref{display:block; margin-top:6px; color:var(--gold); font-style:normal}
 
-    /* —— DETAILS —— */
     .details{
       display:grid; gap:12px; grid-template-columns:1fr;
       padding:14px 16px 6px; max-width:780px; margin:0 auto;
@@ -126,7 +144,6 @@
     .detail b{color:var(--gold); display:block; margin-bottom:3px}
     .detail span{color:#fff7ea}
 
-    /* —— ACTIONS —— */
     .actions{text-align:center; padding:16px 16px 28px}
     .divider{height:1px; width:220px; margin:18px auto 12px; background:linear-gradient(90deg,transparent,var(--gold),transparent)}
     .dua{max-width:760px; margin:0 auto; color:#f7efe0}
@@ -149,10 +166,10 @@
 
     footer{text-align:center; padding:16px 12px 26px; color:#f1ead9; font-size:13px}
     .tag{color:var(--gold); font-weight:700}
-
     @media (min-width:700px){ .details{grid-template-columns:1fr 1fr} }
   </style>
 </head>
+
 <body>
   <div class="container">
     <div class="card" role="article" aria-label="Wedding Invitation">
@@ -175,56 +192,25 @@
         <div class="line" aria-hidden="true"></div>
       </section>
 
-      <!-- Verse -->
       <section class="verse" aria-label="Quran Verse">
-        <p>
-          “And We created you in pairs.”
-          <span class="ref">— Qur’an 78:8</span>
-        </p>
+        <p>“And We created you in pairs.” <span class="ref">— Qur’an 78:8</span></p>
       </section>
 
       <section class="details" aria-label="Event Details">
-        <div class="detail">
-          <div>
-            <b>Wedding Date</b>
-            <span>Monday, <strong>16th February 2026</strong></span>
-          </div>
-        </div>
-        <div class="detail">
-          <div>
-            <b>Venue</b>
-            <span>
-              The Meadows Banquet<br>
-              Johar Hill Rd, Block 14 Gulistan‑e‑Johor,<br>
-              Karachi, Pakistan
-            </span>
-          </div>
-        </div>
-        <div class="detail">
-          <div>
-            <b>Schedule</b>
-            <span>
-              Gathering at <strong>7:00 PM</strong><br>
-              Dinner at <strong>8:30 PM</strong>
-            </span>
-          </div>
-        </div>
-        <div class="detail">
-          <div>
-            <b>Note</b>
-            <span>📵 Photographs not allowed.</span>
-          </div>
-        </div>
+        <div class="detail"><div><b>Wedding Date</b><span>Monday, <strong>16th February 2026</strong></span></div></div>
+        <div class="detail"><div><b>Venue</b><span>The Meadows Banquet<br>Johar Hill Rd, Block 14 Gulistan‑e‑Johor,<br>Karachi, Pakistan</span></div></div>
+        <div class="detail"><div><b>Schedule</b><span>Gathering at <strong>7:00 PM</strong><br>Dinner at <strong>8:30 PM</strong></span></div></div>
+        <div class="detail"><div><b>Note</b><span>📵 Photographs not allowed.</span></div></div>
       </section>
 
       <section class="actions" aria-label="Actions">
         <div class="divider" aria-hidden="true"></div>
+
         <p class="dua">
           We respectfully request your prayers on this blessed occasion — <em>Iltemas‑e‑Dua</em>.
           <span class="marhumeen">Please recite Surah Fatiha for our <em>marhumeen</em>.</span>
         </p>
 
-        <!-- Countdown -->
         <div id="countdown" class="countdown" aria-label="Countdown to wedding">
           <div class="cd"><div class="num" id="d">--</div><div class="lab">Days</div></div>
           <div class="cd"><div class="num" id="h">--</div><div class="lab">Hours</div></div>
@@ -232,24 +218,12 @@
           <div class="cd"><div class="num" id="s">--</div><div class="lab">Sec</div></div>
         </div>
 
-        <!-- Buttons -->
         <div class="btns" role="group" aria-label="Interactive Buttons">
-          <!-- 📍 Location (Google Maps) -->
           <a class="btn" target="_blank" rel="noopener" href="https://share.google/SYefXliEi4dXN0nbc">📍 Open Location</a>
-
-          <!-- ✔️ RSVP (WhatsApp message with both contacts) -->
           <a id="rsvpBtn" class="btn" target="_blank" rel="noopener">✔️ RSVP Now</a>
-
-          <!-- 🗓️ Add to Google Calendar -->
           <a id="addGoogleCal" class="btn" target="_blank" rel="noopener">🗓️ Add to Google Calendar</a>
-
-          <!-- 🗓️ Download .ICS (Outlook/Apple) -->
           <button id="downloadICS" class="btn" type="button">🗓️ Download .ICS</button>
-
-          <!-- 📋 Copy Venue to clipboard -->
           <button id="copyVenue" class="btn" type="button">📋 Copy Venue</button>
-
-          <!-- 💬 Share on WhatsApp (pre-filled) -->
           <a id="waShare" class="btn" target="_blank" rel="noopener">💬 Share on WhatsApp</a>
         </div>
       </section>
@@ -258,11 +232,12 @@
         <div class="divider" aria-hidden="true"></div>
         <p>We Look Forward to Welcome you <span class="tag"></span>.</p>
       </footer>
-
     </div>
   </div>
 
   <script>
+    const INVITE_URL = "https://syedkumailrazarizvi.github.io/Digital-Card/";
+
     /* Countdown (16 Feb 2026, 20:00 PKT / UTC+5) */
     const target = new Date('2026-02-16T20:00:00+05:00').getTime();
     function tick(){
@@ -279,7 +254,6 @@
     }
     tick(); setInterval(tick, 1000);
 
-    /* Shared strings */
     const names = "SYED KUMAIL RAZA RIZVI with SYEDA NOOR UL SABA NAQVI";
     const title = "Wedding: " + names;
     const dateText = "16th February 2026";
@@ -290,7 +264,6 @@
 1- SYED JAFFAR RAZA RIZVI +923340008988
 2- SYED MUSTAFA RAZA +923340007765`;
 
-    // 20:00 PKT => 15:00 UTC; 23:00 PKT => 18:00 UTC
     const startUTC = "20260216T150000Z";
     const endUTC   = "20260216T180000Z";
 
@@ -308,6 +281,7 @@ Please recite Surah Fatiha for our marhumeen.
 
 ${rsvpContacts}
 
+Invitation: ${INVITE_URL}
 Location: ${mapLink}`;
 
     /* Google Calendar link */
@@ -354,7 +328,7 @@ END:VCALENDAR`;
       catch(e){ prompt("Copy the venue address:", venueText); }
     });
 
-    /* RSVP: WhatsApp pre-filled with both contacts */
+    /* RSVP */
     (function(){
       const rsvpMsg =
 `Assalam-o-Alaikum,
@@ -365,10 +339,12 @@ ${rsvpContacts}`;
       document.getElementById('rsvpBtn').href = 'https://wa.me/?text=' + encodeURIComponent(rsvpMsg);
     })();
 
-    /* WhatsApp Share (pre-filled) */
+    /* ✅ WhatsApp share: URL FIRST (helps trigger crawler) */
     (function(){
       const msg =
-`بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ
+`${INVITE_URL}
+
+بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ
 With the blessings of the Holy Ahlulbayt (ع)
 
 Mr & Mrs Syed Jaffar Raza Rizvi would like to invite you to the marriage of their beloved son.
@@ -389,7 +365,8 @@ Please recite Surah Fatiha for our marhumeen.
 
 ${rsvpContacts}
 
-Location: ${mapLink}`;
+📍 Location: ${mapLink}`;
+
       const el = document.getElementById('waShare');
       const isMobile = /Android|iPhone|iPad|iPod|IEMobile|Opera Mini/i.test(navigator.userAgent);
       el.href = (isMobile ? 'https://wa.me/?text=' : 'https://web.whatsapp.com/send?text=') + encodeURIComponent(msg);
@@ -397,4 +374,3 @@ Location: ${mapLink}`;
   </script>
 </body>
 </html>
-
